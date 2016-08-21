@@ -1,7 +1,7 @@
 <h1>Email Statistics</h1>
 
 <ul>Total Statistics
-  <li>Emails Sent: <%= Event.where(event_type: "send").count %></li>
-  <li>Emails Opened: <%= Event.where(event_type: "open").count %></li>
-  <li>Clicks: <%= Event.where(event_type: "click").count %></li>
+  <li>Emails Sent: <%= @send_count %></li>
+  <li>Emails Opened: <%= @open_count %></li>
+  <li>Clicks: <%= @click_count %></li>
 </ul>

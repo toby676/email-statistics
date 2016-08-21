@@ -17,7 +17,7 @@ describe Event do
     expect(event.email_type).to eql 'Order'
   end
 
-  it 'should read event typr' do
+  it 'should read event type' do
     expect(event.event_type).to eql 'send'
   end
 
