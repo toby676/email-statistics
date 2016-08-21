@@ -23,4 +23,21 @@ feature 'User visits statistics page' do
     expect(page).to have_content('Clicks: 1')
   end
 
+  scenario 'can see user confirmation' do
+    expect(page).to have_content('UserConfirmation')
+  end
+
+  scenario 'can see user confirmation count' do
+    expect(page).to have_content('Click percentage: 100%')
+  end
+
+  scenario 'can see shipment type' do
+    expect(page).to have_content('UserConfirmation')
+  end
+
+  scenario 'can see user confirmation count' do
+    expect(page).to have_content('Open percentage: 50%')
+  end
+
+
 end

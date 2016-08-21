@@ -5,3 +5,18 @@
   <li>Emails Opened: <%= @open_count %></li>
   <li>Clicks: <%= @click_count %></li>
 </ul>
+
+<ul>Statistics per email type
+
+<% @total_by_type.each do |email_type, total| %>
+<li> <%= email_type %>
+<br>
+Open percentage: <%= (@opened_by_type[email_type])*100/total %>%
+<br>
+Click percentage: <%= (@clicked_by_type[email_type])*100/total %>%
+<br>
+<br>
+</li>
+<% end %>
+
+</ul>
