@@ -9,4 +9,4 @@ Type `bin/rails s` to start the server
 I used rails as a framework and rspec/capybara for testing. These are tools I am conformable with and I knew I could quickly create this app using these tools.
 
 ## Improvements?
-Adding an ID for each email and having the stats as a relation database could allow for better stat tracking. Currently the order/click tracking isn't tracking specific emails properly.
+Adding an ID for each email and having the stats as a relational database could allow for better stat tracking. Currently the order/click tracking isn't tracking specific emails properly.
