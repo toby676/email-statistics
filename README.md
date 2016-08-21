@@ -2,7 +2,9 @@
 
 ## How to install
 Clone the repo, ensure bundler is installed then type `bundle install` into the console
+
 Type `rake db:create` into the console to create the databases locally
+
 Type `bin/rails s` to start the server
 
 ## Tech I used
